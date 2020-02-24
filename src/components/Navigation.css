@@ -1,0 +1,189 @@
+
+
+
+
+nav{
+  background:white;
+  border-bottom:2px solid gray;
+  display:flex;
+  height:60px;
+  width:65%;
+  position:relative;
+  left:35%;
+  font-weight:800;
+
+}
+
+nav ul{
+  list-style:none;
+  display:flex;
+  position:relative;
+  margin-left:55%;
+  margin-top:1%;
+  transition:all 0.5s;
+  animation:moveInLeft 2s ease;
+}
+
+nav ul li{
+  margin-left:15%;
+  
+}
+nav ul li:first-child{
+  margin-left:0;
+}
+
+nav ul li:hover{
+  border-bottom:2px solid black;
+}
+
+.num{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background:gray;
+  opacity:.8;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position: relative;
+  left:25px;
+  top:38px;
+  color:black;
+  font-weight:800;
+  font-size:1.5em;
+  animation:move 3s ease;
+  z-index: 1;
+}
+
+.header-nav{
+  display:none;
+}
+
+ @media only screen and (max-width:1197px){
+   .num{
+     margin-top:5px;
+     margin-left:-20px;
+   }
+ }
+
+@media only screen and (max-width:998px){
+  nav ul{
+    margin-left:40%;
+    width:55%;
+  }
+
+  .num{
+    
+      width:45px;
+      height:45px;
+      font-size:1.2em;
+      margin-top:5px;
+      margin-left:-55px;
+   
+  }
+
+}
+
+@media only screen and (max-width:768px){
+  nav{
+    width:100%;
+    left:0;
+    display:flex;
+    
+
+  }
+
+.header-nav{
+  display:flex;
+  flex:1 0 auto;
+  margin-left:5px;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul{
+  flex:1 0 auto;
+  margin-left:0;
+}
+
+.num{
+  left:-20px;
+}
+
+.title-nav{
+  font-size:1.9em;
+}
+
+.App-logo {
+  height: 60px;
+  pointer-events: none;
+}
+
+
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+@media only screen and (max-width:605px){
+  nav ul{
+    margin-left:-95px;
+    width:35%;
+  }
+  .num{
+    left:-15px;
+  }
+
+  .header-nav{
+    margin-right:5px;
+  }
+
+  nav ul li{
+    margin-left:9%;
+  }
+}
+
+@media only screen and (max-width:565px){
+  nav ul{
+    display:none;
+  }
+
+  nav ul li{
+    position:relative;
+    right:13%;
+    margin-left:9%;
+  }
+
+}
+
+@keyframes moveInLeft {
+  0%{
+    opacity:0;
+    transform:translateX(-620px);
+  }
+
+  100%{
+    opacity:1;
+    transform:translateX(0);
+  }
+}
+
+@keyframes move{
+  20% { transform: rotate(15deg); } 
+  40% { transform: rotate(-10deg); } 
+  60% { transform: rotate(30deg); } 
+  80% { transform: rotate(-8deg); } 
+  100% { transform: rotate(0deg); } 
+}
+
+
+

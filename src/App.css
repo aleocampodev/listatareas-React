@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.card{
+  border:none;
+  animation:moveInBottom 2s ease;
+}
+
+
+.footer-card{
+  display:none;
+}
+
+
+
+@media only screen and (max-width:565px){
+  .footer-card{
+    display:flex;
+    background:white;
+    margin-top:8%;
+    width:100%;
+  }
+
+
+
+  .footer-nav{
+    list-style:none;
+    display:flex;
+  }
+
+  .footer-nav li{
+    margin-right:7%;
+    font-weight:800;
+    transition:all 0.5s;
+  }
+
+  .footer-nav li:hover{
+    border-bottom:2px solid  black
+  }
+
+  
+}
+ 
+@keyframes moveInBottom{
+  from{
+    transform:translate3d(0,40px,0)
+  }
+
+  to{
+    transform:translate3d(0,0,0);
+    opacity:1;
+  }
+}
+
+
+
+
+
+
+

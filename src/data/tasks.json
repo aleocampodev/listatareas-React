@@ -1,0 +1,22 @@
+{
+    "tasks":[
+        {
+            "titulo":"Tarea 1",
+            "responsable" : "Mark",
+            "descripcion":"lorem ipsum",
+            "prioridad" :"Baja"
+        },
+        {
+            "titulo":"Tarea 2",
+            "responsable" : "Ryan",
+            "descripcion":"lorem ipsum 2",
+            "prioridad" :"Media"
+        },
+        {
+            "titulo":"Tarea 3",
+            "responsable" : "Joseph",
+            "descripcion":"lorem ipsum 3",
+            "prioridad" :"Alta"
+        }
+    ]
+}
