@@ -1,5 +1,6 @@
 ## listatareas-React
 
+Responsive task list application created with react
 
 ## Demo
 
