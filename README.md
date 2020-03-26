@@ -1,6 +1,6 @@
 ## listatareas-React
 
-<img src='//gifs.com/embed/wVlv1r >
+<img src='https://j.gifs.com/wVlv1r.gif'>
 
 ## Available Scripts
 
