@@ -1,6 +1,6 @@
 ## listatareas-React
 
-<iframe src="https://j.gifs.com/wVlv1r.gif"></iframe>
+![image](https://j.gifs.com/wVlv1r.gif)
 
 ## Available Scripts
 
