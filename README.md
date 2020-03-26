@@ -1,6 +1,6 @@
 ## listatareas-React
 
-<iframe src='//gifs.com/embed/wVlv1r 'frameborder='0' scrolling='no' width='1028px' height='2042px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
+<img src='//gifs.com/embed/wVlv1r >
 
 ## Available Scripts
 
